@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AugLunchtime/AugLunchtime.iml" filepath="$PROJECT_DIR$/AugLunchtime/AugLunchtime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodeChef.iml" filepath="$PROJECT_DIR$/CodeChef.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Codeathon'22/Codeathon_22.iml" filepath="$PROJECT_DIR$/Codeathon'22/Codeathon_22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JulyCook-Off/JulyCook-Off.iml" filepath="$PROJECT_DIR$/JulyCook-Off/JulyCook-Off.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JulyLong1/JulyLong1.iml" filepath="$PROJECT_DIR$/JulyLong1/JulyLong1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JulyLunchtime/JulyLunchtime.iml" filepath="$PROJECT_DIR$/JulyLunchtime/JulyLunchtime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JuneLong2/JuneLong2.iml" filepath="$PROJECT_DIR$/JuneLong2/JuneLong2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Starter45/Starter45.iml" filepath="$PROJECT_DIR$/Starter45/Starter45.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Starter46/Starter46.iml" filepath="$PROJECT_DIR$/Starter46/Starter46.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Starter47/Starter47.iml" filepath="$PROJECT_DIR$/Starter47/Starter47.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Starter48/Starter48.iml" filepath="$PROJECT_DIR$/Starter48/Starter48.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Starter49/Starter49.iml" filepath="$PROJECT_DIR$/Starter49/Starter49.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Starter51/Starter51.iml" filepath="$PROJECT_DIR$/Starter51/Starter51.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TCS/TCS.iml" filepath="$PROJECT_DIR$/TCS/TCS.iml" />
+    </modules>
+  </component>
+</project>
