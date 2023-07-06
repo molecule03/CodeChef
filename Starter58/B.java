@@ -1,4 +1,4 @@
-package CodeChef.Starter58;
+package CodeChef_Contests.Starter58;
 
 //package CodeChef.SepLunchTime;
 

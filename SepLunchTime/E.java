@@ -1,4 +1,4 @@
-package CodeChef.SepLunchTime;
+package CodeChef_Contests.SepLunchTime;
 
 import java.io.BufferedReader;
 import java.io.IOException;

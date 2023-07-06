@@ -1,4 +1,4 @@
-package CodeChef.Starter66;
+package CodeChef_Contests.Starter66;
 
 import java.io.BufferedReader;
 import java.io.IOException;

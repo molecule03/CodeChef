@@ -1,4 +1,4 @@
-package CodeChef.Starter83;
+package CodeChef_Contests.Starter83;
 
 //package CodeChef.Starter83;
 
