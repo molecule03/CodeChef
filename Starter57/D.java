@@ -1,4 +1,4 @@
-package CodeChef_Contests.Starter57;
+package CodeChef_Contest.Starter57;
 
 
 import java.io.BufferedReader;

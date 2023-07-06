@@ -1,4 +1,4 @@
-package CodeChef_Contests.Starter82;
+package CodeChef_Contest.Starter82;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package CodeChef_Contests.JulyCookOff;
+package CodeChef_Contest.JulyCookOff;
 
 import java.io.BufferedReader;
 import java.io.IOException;

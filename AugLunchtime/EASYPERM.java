@@ -1,4 +1,4 @@
-package CodeChef_Contests.AugLunchtime;
+package CodeChef_Contest.AugLunchtime;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package CodeChef_Contests.JulyLong1;
+package CodeChef_Contest.JulyLong1;
 
 import java.io.BufferedReader;
 import java.io.IOException;

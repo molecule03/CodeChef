@@ -1,4 +1,4 @@
-package CodeChef_Contests.Starter48;
+package CodeChef_Contest.Starter48;
 
 public class E {
 }
