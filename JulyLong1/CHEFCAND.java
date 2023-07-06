@@ -35,16 +35,16 @@ class CHEFCAND {
         for (int i=1; i<=Math.sqrt(n); i++){
 
             if (n%i==0){
-                // If divisors are equal, print only one
+
                 if (n/i == i) {
                     list.add((long)i);
-//                    System.out.print(" "+ i);
+
                 }
                 // Otherwise print both
                 else {
                     list.add((long)i);
                     list.add(n/i);
-//                    System.out.print(i+" " + n/i + " " );
+
                 }
             }
         }
