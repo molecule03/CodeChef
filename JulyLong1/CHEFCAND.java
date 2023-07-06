@@ -21,7 +21,8 @@ class CHEFCAND {
             int a = n-x;
             if(a%4 != 0){
                 out.println(a/4+1);
-            }else{
+            }
+            else{
                 out.println(a/4);
             }
         }
