@@ -57,7 +57,6 @@ class CHEFCAND {
         return gcd(b%a, a);
     }
 
-    // method to return LCM of two numbers
     static long lcm(long a, long b){
         return (a / gcd(a, b)) * b;
     }
