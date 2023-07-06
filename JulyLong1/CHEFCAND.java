@@ -29,7 +29,6 @@ class CHEFCAND {
         out.close();
     }
 
-
     static List<Long> printDivisors(long n) {
         List<Long> list = new ArrayList<>();
         // Note that this loop runs till square root
