@@ -25,8 +25,8 @@ class C {
                 continue;
             }
             ans = 0;
-            int arr[] = new int[n];
-            recurse(n, 0, arr);
+            int str[] = new int[n];
+            recurse(n, 0, str);
             out.println(ans);
         }
 
