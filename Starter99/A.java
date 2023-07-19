@@ -19,25 +19,6 @@ class A {
             int n = fs.nextInt();
             int arr[] = fs.readArray(n);
 
-//            int count = 0;
-//            int max = 0;
-//            Map<Integer, Integer> map = new HashMap<>();
-//            for(int i=0; i<n; i++){
-//                if(!map.containsKey(arr[i])){
-//                    map.put(arr[i], 1);
-//                }
-//                else if(map.get(arr[i])%2 == 1 && arr[i] != arr[i-1]){
-//                    count++;
-//                }
-//                else{
-//                    max = Math.max(count, max);
-//                    count = 0;
-//                }
-//            }
-//
-//            max = Math.max(count, max);
-//            out.println(max+1);
-
             Set<Integer> set = new HashSet<>();
             int max = 0;
             for(int i : arr){
@@ -50,7 +31,7 @@ class A {
                 max = Math.max(max, set.size());
             }
             max = Math.max(max, set.size());
-//            out.println(set);
+
             out.println(max);
 
         }
