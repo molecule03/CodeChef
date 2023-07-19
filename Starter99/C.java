@@ -18,7 +18,6 @@ class C {
         for (int tt=0; tt<T; tt++) {
 
             int n = fs.nextInt();
-//            int arr[] = fs.readArray(n);
             long arr[] = new long[n];
             for(int i=0; i<n; i++){
                 arr[i] = fs.nextLong();
