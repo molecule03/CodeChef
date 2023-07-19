@@ -26,7 +26,6 @@ class B {
             }
 
             sort(arr);
-
             out.print(sum+" ");
             for(int i=0; i<n-1; i++){
                 sum -= arr[i];
