@@ -25,10 +25,10 @@ class C {
 
             long sum[] = new long[n-2];
             for(int i=0; i<n-2; i++){
-//                sum[i] = ((arr[i]+arr[i+1])%mod+arr[i+2])%mod;
-                long a = add(arr[i], arr[i+1]);
-                long b = add(a, arr[i+2]);
-                sum[i] = b;
+                sum[i] = ((arr[i]+arr[i+1])%mod+arr[i+2])%mod;
+//                long a = add(arr[i], arr[i+1]);
+//                long b = add(a, arr[i+2]);
+//                sum[i] = b;
 
             }
 
