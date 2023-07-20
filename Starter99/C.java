@@ -8,7 +8,7 @@ import java.util.*;
 
 class C {
 
-
+//    Upsolved after contest
     public static void main(String[] args) {
 
         FastScanner fs=new FastScanner();
@@ -23,64 +23,56 @@ class C {
                 arr[i] = fs.nextLong();
             }
 
-            long sum[] = new long[n-2];
-            for(int i=0; i<n-2; i++){
-                sum[i] = ((arr[i]+arr[i+1])%mod+arr[i+2])%mod;
-//                long a = add(arr[i], arr[i+1]);
-//                long b = add(a, arr[i+2]);
-//                sum[i] = b;
-
-            }
-
-            long in[] = new long[n-2];
-            for(int i=0; i<n-2; i++){
-                long rem = sum[i]%3;
-                if(rem==0){
-                    in[i] = 0;
-                }
-                else{
-                    in[i] = 3-rem;
-                }
-            }
-
-            if(in.length == 1){
-                out.println(in[0]);
-                continue;
-            }
-
-            int idx = 0;
-            long count = 0;
-            while(idx < in.length-2){
-                long a = in[idx];
-                long b = in[idx+1];
-                long c = in[idx+2];
-
-                if(a == 0){
+            int inc[][] = new int[9][2];
+            int idx  = 0;
+            for(int i=0; i<3; i++){
+                for(int j=0; j<3; j++){
+                    inc[idx][0] = i;
+                    inc[idx][1] = j;
                     idx++;
-                    continue;
                 }
-
-//                long min = findMinimum(a,c,b);
-                count += a;
-                dec(a, in, idx);
-                dec(a, in, idx+1);
-                dec(a, in, idx+2);
-
-                idx++;
             }
 
-            count += in[idx];
-            dec(in[idx], in, idx);
-            idx++;
-            count += in[idx];
-            dec(in[idx], in, idx);
 
-//            out.println(Arrays.toString(sum)+" "+Arrays.toString(in)+" "+count);
-            out.println(count);
+            long ans = Integer.MAX_VALUE;
+            for(int j=0; j<9; j++){
+                long temp[] = new long[n];
+                makeTemp(temp, arr);
 
+                temp[0] += inc[j][0];
+                temp[1] += inc[j][1];
+                int count = inc[j][0]+inc[j][1];
+                for(int i=2; i<n; i++){
+
+                    long sum = temp[i]+temp[i-1]+temp[i-2];
+//                    out.print(sum+" ");
+                    if(sum % 3 != 0){
+                        if(sum % 3 == 1){
+                            temp[i]+= 2;
+                            count += 2;
+                        }
+                        else if(sum % 3 == 2){
+                            temp[i]+= 1;
+                            count += 1;
+                        }
+                    }
+                }
+//                out.println(Arrays.toString(temp)+" "+count+" ");
+                ans = Math.min(count, ans);
+            }
+
+            out.println(ans);
+
+
+//            out.println(Arrays.toString(arr));
         }
 
         out.close();
+    }
+
+    private static void makeTemp(long temp[], long arr[]){
+
+        for(int i=0; i<arr.length; i++) temp[i] = arr[i];
     }
 
     private static void dec(long a, long[] in, int idx){
