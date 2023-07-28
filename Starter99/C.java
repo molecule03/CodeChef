@@ -63,9 +63,6 @@ class C {
             }
 
             out.println(ans);
-
-
-//            out.println(Arrays.toString(arr));
         }
 
         out.close();
