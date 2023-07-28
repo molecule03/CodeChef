@@ -33,7 +33,6 @@ class C {
                 }
             }
 
-
             long ans = Integer.MAX_VALUE;
             for(int j=0; j<9; j++){
                 long temp[] = new long[n];
