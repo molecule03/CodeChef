@@ -41,6 +41,7 @@ class C {
 
                 temp[0] += inc[j][0];
                 temp[1] += inc[j][1];
+
                 int count = inc[j][0]+inc[j][1];
                 for(int i=2; i<n; i++){
 
